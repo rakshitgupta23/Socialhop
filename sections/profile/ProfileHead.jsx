@@ -20,7 +20,7 @@ const TABS = [
     icon: "ph:heart-fill",
   },
   {
-    label: "Followings",
+    label: "Following",
     icon: "fluent:people-20-filled",
   },
 ];
@@ -84,7 +84,7 @@ const ProfileHead = ({
       <Spin spinning={isPending}>
         <div className={css.banner} onClick={() => setBannerPreview(true)}>
           <Image
-            src={banner || "/images/banner.png"}
+            src={banner || "/images/banner.jpg"}
             alt="banner"
             preview={{
               mask: null,

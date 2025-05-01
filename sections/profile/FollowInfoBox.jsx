@@ -32,7 +32,7 @@ const FollowInfoBox = ({id}) => {
 
       <Space direction="vertical" align="center">
         <Typography className={"typoH5"}>{data?.following?.length}</Typography>
-        <Typography className={"typoSubtitle2"}>Followings</Typography>
+        <Typography className={"typoSubtitle2"}>Following</Typography>
       </Space>
     </Box>
   );
